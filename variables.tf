@@ -1,10 +1,10 @@
 variable "ibmcloud_api_key" {}
-
-variable "region" {
-  default = "us-east"
+variable "machine_type" {
+   default = "b2c.8x32"
 }
-variable "machine_type" {}
-variable "hardware" {}
+variable "hardware" {
+   default = "shared"
+}
 
 variable "datacenter" {
   default = "wdc07"
