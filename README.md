@@ -29,7 +29,7 @@ On OS X this is achieved by entering the following into your terminal, replacing
 |machine_type| The type of the machine flavor|b2c.8x32| 
 |hardware   |  The level of hardware isolation for your worker node|shared|
 |datacenter|The datacenter to provision cluster |wdc07|
-|default_pool_size| No of workers ind default pool | 3 |
+|default_pool_size| No of workers in default pool | 3 |
 |private_vlan_id|The private vlan ID. Run ic ks vlans `datacenter` to retrieve vlans||
 |public_vlan_id|The public vlan ID.Run ic ks vlans `datacenter` to retrieve vlans||
 |kube_version|The desired Kubernetes version of the created cluster. Run ic ks kube-version to get latest verions.|1.14.6|
