@@ -1,6 +1,6 @@
 variable "ibmcloud_api_key" {}
 variable "machine_type" {
-   default = "b2c.8x32"
+   default = "b3c.4x16"
 }
 variable "hardware" {
    default = "shared"
